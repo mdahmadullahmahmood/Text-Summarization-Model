@@ -1,0 +1,26 @@
+streamlit
+transformers
+bert-extractive-summarizer
+torch
+numpy
+scikit-learn
+joblib
+sentencepiece
+pdfplumber
+pymupdf
+
+Explanation of Each Library
+streamlit → For building the interactive web app.
+transformers → Provides BART and T5 pre-trained summarization models from Hugging Face.
+bert-extractive-summarizer → Enables extractive summarization using BERT.
+torch → Required for running deep learning models (BERT, T5, BART).
+numpy → Used for numerical computations.
+scikit-learn → Needed for data preprocessing, if required.
+joblib → For saving/loading models efficiently.
+sentencepiece → A tokenizer dependency required for T5 models.
+pdfplumber → An alternative PDF text extractor (if needed).
+pymupdf → Used to extract text from PDF files.
+📌 How to Use This File
+Create a requirements.txt file in your project folder and copy-paste the above dependencies.
+Install dependencies by running this command in your terminal or Google Colab:
+pip install -r requirements.txt
